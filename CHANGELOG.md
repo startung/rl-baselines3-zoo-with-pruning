@@ -1,10 +1,16 @@
-## Release 2.4.0a4 (WIP)
+## Release 2.4.0a11 (WIP)
+
+**New algorithm: CrossQ, Gymnasium v1.0 support, and better defaults for SAC/TQC on Swimmer-v4 env**
 
 ### Breaking Changes
 - Updated defaults hyperparameters for TQC/SAC for Swimmer-v4 (decrease gamma for more consistent results) (@JacobHA) [W&B report](https://wandb.ai/openrlbenchmark/sbx/reports/SAC-MuJoCo-Swimmer-v4--Vmlldzo3NzM5OTk2)
 - Upgraded to SB3 >= 2.4.0
+- Renamed `LunarLander-v2` to `LunarLander-v3` in hyperparameters
 
 ### New Features
+- Added `CrossQ` hyperparameters for SB3-contrib (@danielpalen)
+- Added Gymnasium v1.0 support
+- `--custom-objects` in `enjoy.py` now also patches obs space (when bounds are changed) to solve "Observation spaces do not match" errors
 
 ### Bug fixes
 - Replaced deprecated `huggingface_hub.Repository` when pushing to Hugging Face Hub by the recommended `HfApi` (see https://huggingface.co/docs/huggingface_hub/concepts/git_vs_http) (@cochaviz)
@@ -12,7 +18,8 @@
 ### Documentation
 
 ### Other
-- Updated PyTorch version to 2.3.1 in the CI
+- Updated PyTorch version to 2.4.1 in the CI
+- Switched to uv to download packages faster on GitHub CI
 
 ## Release 2.3.0 (2024-03-31)
 
