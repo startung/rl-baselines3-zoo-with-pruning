@@ -1,0 +1,945 @@
+** Don't use ARS **
+Running ars on CartPole-v1
+policy:
+	 action_net.0.weight torch.Size([2, 4])
+Running ars on MountainCar-v0
+policy:
+	 action_net.0.weight torch.Size([16, 2])
+	 action_net.0.bias torch.Size([16])
+	 action_net.2.weight torch.Size([3, 16])
+	 action_net.2.bias torch.Size([3])
+Running ars on Acrobot-v1
+policy:
+	 action_net.0.weight torch.Size([16, 6])
+	 action_net.0.bias torch.Size([16])
+	 action_net.2.weight torch.Size([3, 16])
+	 action_net.2.bias torch.Size([3])
+Running ars on Pendulum-v1
+policy:
+	 action_net.0.weight torch.Size([16, 3])
+	 action_net.0.bias torch.Size([16])
+	 action_net.2.weight torch.Size([1, 16])
+	 action_net.2.bias torch.Size([1])
+Running ars on MountainCarContinuous-v0
+policy:
+	 action_net.0.weight torch.Size([16, 2])
+	 action_net.0.bias torch.Size([16])
+	 action_net.2.weight torch.Size([1, 16])
+	 action_net.2.bias torch.Size([1])
+
+-------------------------------------------------------------------------------------------
+
+Running a2c on CartPole-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([2, 64])
+	 action_net.bias torch.Size([2])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0007, 'momentum': 0, 'alpha': 0.99, 'eps': 1e-05, 'centered': False, 'weight_decay': 0, 'capturable': False, 'foreach': None, 'maximize': False, 'differentiable': False, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running a2c on MountainCar-v0
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0007, 'momentum': 0, 'alpha': 0.99, 'eps': 1e-05, 'centered': False, 'weight_decay': 0, 'capturable': False, 'foreach': None, 'maximize': False, 'differentiable': False, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running a2c on Acrobot-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0007, 'momentum': 0, 'alpha': 0.99, 'eps': 1e-05, 'centered': False, 'weight_decay': 0, 'capturable': False, 'foreach': None, 'maximize': False, 'differentiable': False, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running a2c on Pendulum-v1
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0007, 'momentum': 0, 'alpha': 0.99, 'eps': 1e-05, 'centered': False, 'weight_decay': 0, 'capturable': False, 'foreach': None, 'maximize': False, 'differentiable': False, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+Running a2c on MountainCarContinuous-v0
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0007, 'momentum': 0, 'alpha': 0.99, 'eps': 1e-05, 'centered': False, 'weight_decay': 0, 'capturable': False, 'foreach': None, 'maximize': False, 'differentiable': False, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+Running ppo on CartPole-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([2, 64])
+	 action_net.bias torch.Size([2])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running ppo on MountainCar-v0
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running ppo on Acrobot-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running ppo on Pendulum-v1
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+Running ppo on MountainCarContinuous-v0
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 7.77e-05, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+Running dqn on CartPole-v1
+policy:
+	 q_net.q_net.0.weight torch.Size([256, 4])
+	 q_net.q_net.0.bias torch.Size([256])
+	 q_net.q_net.2.weight torch.Size([256, 256])
+	 q_net.q_net.2.bias torch.Size([256])
+	 q_net.q_net.4.weight torch.Size([2, 256])
+	 q_net.q_net.4.bias torch.Size([2])
+	 q_net_target.q_net.0.weight torch.Size([256, 4])
+	 q_net_target.q_net.0.bias torch.Size([256])
+	 q_net_target.q_net.2.weight torch.Size([256, 256])
+	 q_net_target.q_net.2.bias torch.Size([256])
+	 q_net_target.q_net.4.weight torch.Size([2, 256])
+	 q_net_target.q_net.4.bias torch.Size([2])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0023, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+Running dqn on MountainCar-v0
+policy:
+	 q_net.q_net.0.weight torch.Size([256, 2])
+	 q_net.q_net.0.bias torch.Size([256])
+	 q_net.q_net.2.weight torch.Size([256, 256])
+	 q_net.q_net.2.bias torch.Size([256])
+	 q_net.q_net.4.weight torch.Size([3, 256])
+	 q_net.q_net.4.bias torch.Size([3])
+	 q_net_target.q_net.0.weight torch.Size([256, 2])
+	 q_net_target.q_net.0.bias torch.Size([256])
+	 q_net_target.q_net.2.weight torch.Size([256, 256])
+	 q_net_target.q_net.2.bias torch.Size([256])
+	 q_net_target.q_net.4.weight torch.Size([3, 256])
+	 q_net_target.q_net.4.bias torch.Size([3])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.004, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+Running dqn on Acrobot-v1
+policy:
+	 q_net.q_net.0.weight torch.Size([256, 6])
+	 q_net.q_net.0.bias torch.Size([256])
+	 q_net.q_net.2.weight torch.Size([256, 256])
+	 q_net.q_net.2.bias torch.Size([256])
+	 q_net.q_net.4.weight torch.Size([3, 256])
+	 q_net.q_net.4.bias torch.Size([3])
+	 q_net_target.q_net.0.weight torch.Size([256, 6])
+	 q_net_target.q_net.0.bias torch.Size([256])
+	 q_net_target.q_net.2.weight torch.Size([256, 256])
+	 q_net_target.q_net.2.bias torch.Size([256])
+	 q_net_target.q_net.4.weight torch.Size([3, 256])
+	 q_net_target.q_net.4.bias torch.Size([3])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.00063, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+Running qrdqn on CartPole-v1
+policy:
+	 quantile_net.quantile_net.0.weight torch.Size([256, 4])
+	 quantile_net.quantile_net.0.bias torch.Size([256])
+	 quantile_net.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net.quantile_net.2.bias torch.Size([256])
+	 quantile_net.quantile_net.4.weight torch.Size([20, 256])
+	 quantile_net.quantile_net.4.bias torch.Size([20])
+	 quantile_net_target.quantile_net.0.weight torch.Size([256, 4])
+	 quantile_net_target.quantile_net.0.bias torch.Size([256])
+	 quantile_net_target.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net_target.quantile_net.2.bias torch.Size([256])
+	 quantile_net_target.quantile_net.4.weight torch.Size([20, 256])
+	 quantile_net_target.quantile_net.4.bias torch.Size([20])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0023, 'betas': (0.9, 0.999), 'eps': 0.00015625, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running qrdqn on MountainCar-v0
+policy:
+	 quantile_net.quantile_net.0.weight torch.Size([256, 2])
+	 quantile_net.quantile_net.0.bias torch.Size([256])
+	 quantile_net.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net.quantile_net.2.bias torch.Size([256])
+	 quantile_net.quantile_net.4.weight torch.Size([75, 256])
+	 quantile_net.quantile_net.4.bias torch.Size([75])
+	 quantile_net_target.quantile_net.0.weight torch.Size([256, 2])
+	 quantile_net_target.quantile_net.0.bias torch.Size([256])
+	 quantile_net_target.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net_target.quantile_net.2.bias torch.Size([256])
+	 quantile_net_target.quantile_net.4.weight torch.Size([75, 256])
+	 quantile_net_target.quantile_net.4.bias torch.Size([75])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.004, 'betas': (0.9, 0.999), 'eps': 7.8125e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running qrdqn on Acrobot-v1
+policy:
+	 quantile_net.quantile_net.0.weight torch.Size([256, 6])
+	 quantile_net.quantile_net.0.bias torch.Size([256])
+	 quantile_net.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net.quantile_net.2.bias torch.Size([256])
+	 quantile_net.quantile_net.4.weight torch.Size([75, 256])
+	 quantile_net.quantile_net.4.bias torch.Size([75])
+	 quantile_net_target.quantile_net.0.weight torch.Size([256, 6])
+	 quantile_net_target.quantile_net.0.bias torch.Size([256])
+	 quantile_net_target.quantile_net.2.weight torch.Size([256, 256])
+	 quantile_net_target.quantile_net.2.bias torch.Size([256])
+	 quantile_net_target.quantile_net.4.weight torch.Size([75, 256])
+	 quantile_net_target.quantile_net.4.bias torch.Size([75])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.00063, 'betas': (0.9, 0.999), 'eps': 7.8125e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running ddpg on Pendulum-v1
+policy:
+	 actor.mu.0.weight torch.Size([400, 3])
+	 actor.mu.0.bias torch.Size([400])
+	 actor.mu.2.weight torch.Size([300, 400])
+	 actor.mu.2.bias torch.Size([300])
+	 actor.mu.4.weight torch.Size([1, 300])
+	 actor.mu.4.bias torch.Size([1])
+	 actor_target.mu.0.weight torch.Size([400, 3])
+	 actor_target.mu.0.bias torch.Size([400])
+	 actor_target.mu.2.weight torch.Size([300, 400])
+	 actor_target.mu.2.bias torch.Size([300])
+	 actor_target.mu.4.weight torch.Size([1, 300])
+	 actor_target.mu.4.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([400, 4])
+	 critic.qf0.0.bias torch.Size([400])
+	 critic.qf0.2.weight torch.Size([300, 400])
+	 critic.qf0.2.bias torch.Size([300])
+	 critic.qf0.4.weight torch.Size([1, 300])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([400, 4])
+	 critic_target.qf0.0.bias torch.Size([400])
+	 critic_target.qf0.2.weight torch.Size([300, 400])
+	 critic_target.qf0.2.bias torch.Size([300])
+	 critic_target.qf0.4.weight torch.Size([1, 300])
+	 critic_target.qf0.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+Running ddpg on MountainCarContinuous-v0
+policy:
+	 actor.mu.0.weight torch.Size([400, 2])
+	 actor.mu.0.bias torch.Size([400])
+	 actor.mu.2.weight torch.Size([300, 400])
+	 actor.mu.2.bias torch.Size([300])
+	 actor.mu.4.weight torch.Size([1, 300])
+	 actor.mu.4.bias torch.Size([1])
+	 actor_target.mu.0.weight torch.Size([400, 2])
+	 actor_target.mu.0.bias torch.Size([400])
+	 actor_target.mu.2.weight torch.Size([300, 400])
+	 actor_target.mu.2.bias torch.Size([300])
+	 actor_target.mu.4.weight torch.Size([1, 300])
+	 actor_target.mu.4.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([400, 3])
+	 critic.qf0.0.bias torch.Size([400])
+	 critic.qf0.2.weight torch.Size([300, 400])
+	 critic.qf0.2.bias torch.Size([300])
+	 critic.qf0.4.weight torch.Size([1, 300])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([400, 3])
+	 critic_target.qf0.0.bias torch.Size([400])
+	 critic_target.qf0.2.weight torch.Size([300, 400])
+	 critic_target.qf0.2.bias torch.Size([300])
+	 critic_target.qf0.4.weight torch.Size([1, 300])
+	 critic_target.qf0.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+Running sac on Pendulum-v1
+policy:
+	 actor.latent_pi.0.weight torch.Size([256, 3])
+	 actor.latent_pi.0.bias torch.Size([256])
+	 actor.latent_pi.2.weight torch.Size([256, 256])
+	 actor.latent_pi.2.bias torch.Size([256])
+	 actor.mu.weight torch.Size([1, 256])
+	 actor.mu.bias torch.Size([1])
+	 actor.log_std.weight torch.Size([1, 256])
+	 actor.log_std.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([256, 4])
+	 critic.qf0.0.bias torch.Size([256])
+	 critic.qf0.2.weight torch.Size([256, 256])
+	 critic.qf0.2.bias torch.Size([256])
+	 critic.qf0.4.weight torch.Size([1, 256])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic.qf1.0.weight torch.Size([256, 4])
+	 critic.qf1.0.bias torch.Size([256])
+	 critic.qf1.2.weight torch.Size([256, 256])
+	 critic.qf1.2.bias torch.Size([256])
+	 critic.qf1.4.weight torch.Size([1, 256])
+	 critic.qf1.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([256, 4])
+	 critic_target.qf0.0.bias torch.Size([256])
+	 critic_target.qf0.2.weight torch.Size([256, 256])
+	 critic_target.qf0.2.bias torch.Size([256])
+	 critic_target.qf0.4.weight torch.Size([1, 256])
+	 critic_target.qf0.4.bias torch.Size([1])
+	 critic_target.qf1.0.weight torch.Size([256, 4])
+	 critic_target.qf1.0.bias torch.Size([256])
+	 critic_target.qf1.2.weight torch.Size([256, 256])
+	 critic_target.qf1.2.bias torch.Size([256])
+	 critic_target.qf1.4.weight torch.Size([1, 256])
+	 critic_target.qf1.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+ent_coef_optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0]}]
+
+-----------------------------
+
+Running sac on MountainCarContinuous-v0
+policy:
+	 actor.log_std torch.Size([64, 1])
+	 actor.latent_pi.0.weight torch.Size([64, 2])
+	 actor.latent_pi.0.bias torch.Size([64])
+	 actor.latent_pi.2.weight torch.Size([64, 64])
+	 actor.latent_pi.2.bias torch.Size([64])
+	 actor.mu.0.weight torch.Size([1, 64])
+	 actor.mu.0.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([64, 3])
+	 critic.qf0.0.bias torch.Size([64])
+	 critic.qf0.2.weight torch.Size([64, 64])
+	 critic.qf0.2.bias torch.Size([64])
+	 critic.qf0.4.weight torch.Size([1, 64])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic.qf1.0.weight torch.Size([64, 3])
+	 critic.qf1.0.bias torch.Size([64])
+	 critic.qf1.2.weight torch.Size([64, 64])
+	 critic.qf1.2.bias torch.Size([64])
+	 critic.qf1.4.weight torch.Size([1, 64])
+	 critic.qf1.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([64, 3])
+	 critic_target.qf0.0.bias torch.Size([64])
+	 critic_target.qf0.2.weight torch.Size([64, 64])
+	 critic_target.qf0.2.bias torch.Size([64])
+	 critic_target.qf0.4.weight torch.Size([1, 64])
+	 critic_target.qf0.4.bias torch.Size([1])
+	 critic_target.qf1.0.weight torch.Size([64, 3])
+	 critic_target.qf1.0.bias torch.Size([64])
+	 critic_target.qf1.2.weight torch.Size([64, 64])
+	 critic_target.qf1.2.bias torch.Size([64])
+	 critic_target.qf1.4.weight torch.Size([1, 64])
+	 critic_target.qf1.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running td3 on Pendulum-v1
+policy:
+	 actor.mu.0.weight torch.Size([400, 3])
+	 actor.mu.0.bias torch.Size([400])
+	 actor.mu.2.weight torch.Size([300, 400])
+	 actor.mu.2.bias torch.Size([300])
+	 actor.mu.4.weight torch.Size([1, 300])
+	 actor.mu.4.bias torch.Size([1])
+	 actor_target.mu.0.weight torch.Size([400, 3])
+	 actor_target.mu.0.bias torch.Size([400])
+	 actor_target.mu.2.weight torch.Size([300, 400])
+	 actor_target.mu.2.bias torch.Size([300])
+	 actor_target.mu.4.weight torch.Size([1, 300])
+	 actor_target.mu.4.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([400, 4])
+	 critic.qf0.0.bias torch.Size([400])
+	 critic.qf0.2.weight torch.Size([300, 400])
+	 critic.qf0.2.bias torch.Size([300])
+	 critic.qf0.4.weight torch.Size([1, 300])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic.qf1.0.weight torch.Size([400, 4])
+	 critic.qf1.0.bias torch.Size([400])
+	 critic.qf1.2.weight torch.Size([300, 400])
+	 critic.qf1.2.bias torch.Size([300])
+	 critic.qf1.4.weight torch.Size([1, 300])
+	 critic.qf1.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([400, 4])
+	 critic_target.qf0.0.bias torch.Size([400])
+	 critic_target.qf0.2.weight torch.Size([300, 400])
+	 critic_target.qf0.2.bias torch.Size([300])
+	 critic_target.qf0.4.weight torch.Size([1, 300])
+	 critic_target.qf0.4.bias torch.Size([1])
+	 critic_target.qf1.0.weight torch.Size([400, 4])
+	 critic_target.qf1.0.bias torch.Size([400])
+	 critic_target.qf1.2.weight torch.Size([300, 400])
+	 critic_target.qf1.2.bias torch.Size([300])
+	 critic_target.qf1.4.weight torch.Size([1, 300])
+	 critic_target.qf1.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running td3 on MountainCarContinuous-v0
+policy:
+	 actor.mu.0.weight torch.Size([400, 2])
+	 actor.mu.0.bias torch.Size([400])
+	 actor.mu.2.weight torch.Size([300, 400])
+	 actor.mu.2.bias torch.Size([300])
+	 actor.mu.4.weight torch.Size([1, 300])
+	 actor.mu.4.bias torch.Size([1])
+	 actor_target.mu.0.weight torch.Size([400, 2])
+	 actor_target.mu.0.bias torch.Size([400])
+	 actor_target.mu.2.weight torch.Size([300, 400])
+	 actor_target.mu.2.bias torch.Size([300])
+	 actor_target.mu.4.weight torch.Size([1, 300])
+	 actor_target.mu.4.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([400, 3])
+	 critic.qf0.0.bias torch.Size([400])
+	 critic.qf0.2.weight torch.Size([300, 400])
+	 critic.qf0.2.bias torch.Size([300])
+	 critic.qf0.4.weight torch.Size([1, 300])
+	 critic.qf0.4.bias torch.Size([1])
+	 critic.qf1.0.weight torch.Size([400, 3])
+	 critic.qf1.0.bias torch.Size([400])
+	 critic.qf1.2.weight torch.Size([300, 400])
+	 critic.qf1.2.bias torch.Size([300])
+	 critic.qf1.4.weight torch.Size([1, 300])
+	 critic.qf1.4.bias torch.Size([1])
+	 critic_target.qf0.0.weight torch.Size([400, 3])
+	 critic_target.qf0.0.bias torch.Size([400])
+	 critic_target.qf0.2.weight torch.Size([300, 400])
+	 critic_target.qf0.2.bias torch.Size([300])
+	 critic_target.qf0.4.weight torch.Size([1, 300])
+	 critic_target.qf0.4.bias torch.Size([1])
+	 critic_target.qf1.0.weight torch.Size([400, 3])
+	 critic_target.qf1.0.bias torch.Size([400])
+	 critic_target.qf1.2.weight torch.Size([300, 400])
+	 critic_target.qf1.2.bias torch.Size([300])
+	 critic_target.qf1.4.weight torch.Size([1, 300])
+	 critic_target.qf1.4.bias torch.Size([1])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running tqc on Pendulum-v1
+policy:
+	 actor.latent_pi.0.weight torch.Size([256, 3])
+	 actor.latent_pi.0.bias torch.Size([256])
+	 actor.latent_pi.2.weight torch.Size([256, 256])
+	 actor.latent_pi.2.bias torch.Size([256])
+	 actor.mu.weight torch.Size([1, 256])
+	 actor.mu.bias torch.Size([1])
+	 actor.log_std.weight torch.Size([1, 256])
+	 actor.log_std.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([256, 4])
+	 critic.qf0.0.bias torch.Size([256])
+	 critic.qf0.2.weight torch.Size([256, 256])
+	 critic.qf0.2.bias torch.Size([256])
+	 critic.qf0.4.weight torch.Size([25, 256])
+	 critic.qf0.4.bias torch.Size([25])
+	 critic.qf1.0.weight torch.Size([256, 4])
+	 critic.qf1.0.bias torch.Size([256])
+	 critic.qf1.2.weight torch.Size([256, 256])
+	 critic.qf1.2.bias torch.Size([256])
+	 critic.qf1.4.weight torch.Size([25, 256])
+	 critic.qf1.4.bias torch.Size([25])
+	 critic_target.qf0.0.weight torch.Size([256, 4])
+	 critic_target.qf0.0.bias torch.Size([256])
+	 critic_target.qf0.2.weight torch.Size([256, 256])
+	 critic_target.qf0.2.bias torch.Size([256])
+	 critic_target.qf0.4.weight torch.Size([25, 256])
+	 critic_target.qf0.4.bias torch.Size([25])
+	 critic_target.qf1.0.weight torch.Size([256, 4])
+	 critic_target.qf1.0.bias torch.Size([256])
+	 critic_target.qf1.2.weight torch.Size([256, 256])
+	 critic_target.qf1.2.bias torch.Size([256])
+	 critic_target.qf1.4.weight torch.Size([25, 256])
+	 critic_target.qf1.4.bias torch.Size([25])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+ent_coef_optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0]}]
+
+-----------------------------
+
+Running tqc on MountainCarContinuous-v0
+policy:
+	 actor.log_std torch.Size([64, 1])
+	 actor.latent_pi.0.weight torch.Size([64, 2])
+	 actor.latent_pi.0.bias torch.Size([64])
+	 actor.latent_pi.2.weight torch.Size([64, 64])
+	 actor.latent_pi.2.bias torch.Size([64])
+	 actor.mu.0.weight torch.Size([1, 64])
+	 actor.mu.0.bias torch.Size([1])
+	 critic.qf0.0.weight torch.Size([64, 3])
+	 critic.qf0.0.bias torch.Size([64])
+	 critic.qf0.2.weight torch.Size([64, 64])
+	 critic.qf0.2.bias torch.Size([64])
+	 critic.qf0.4.weight torch.Size([25, 64])
+	 critic.qf0.4.bias torch.Size([25])
+	 critic.qf1.0.weight torch.Size([64, 3])
+	 critic.qf1.0.bias torch.Size([64])
+	 critic.qf1.2.weight torch.Size([64, 64])
+	 critic.qf1.2.bias torch.Size([64])
+	 critic.qf1.4.weight torch.Size([25, 64])
+	 critic.qf1.4.bias torch.Size([25])
+	 critic_target.qf0.0.weight torch.Size([64, 3])
+	 critic_target.qf0.0.bias torch.Size([64])
+	 critic_target.qf0.2.weight torch.Size([64, 64])
+	 critic_target.qf0.2.bias torch.Size([64])
+	 critic_target.qf0.4.weight torch.Size([25, 64])
+	 critic_target.qf0.4.bias torch.Size([25])
+	 critic_target.qf1.0.weight torch.Size([64, 3])
+	 critic_target.qf1.0.bias torch.Size([64])
+	 critic_target.qf1.2.weight torch.Size([64, 64])
+	 critic_target.qf1.2.bias torch.Size([64])
+	 critic_target.qf1.4.weight torch.Size([25, 64])
+	 critic_target.qf1.4.bias torch.Size([25])
+actor.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6]}]
+
+-----------------------------
+
+critic.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.0003, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running trpo on CartPole-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 4])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([2, 64])
+	 action_net.bias torch.Size([2])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running trpo on MountainCar-v0
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running trpo on Acrobot-v1
+policy:
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 6])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([3, 64])
+	 action_net.bias torch.Size([3])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}]
+
+-----------------------------
+
+Running trpo on Pendulum-v1
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 3])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+Running trpo on MountainCarContinuous-v0
+policy:
+	 log_std torch.Size([64, 1])
+	 mlp_extractor.policy_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.policy_net.0.bias torch.Size([64])
+	 mlp_extractor.policy_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.policy_net.2.bias torch.Size([64])
+	 mlp_extractor.value_net.0.weight torch.Size([64, 2])
+	 mlp_extractor.value_net.0.bias torch.Size([64])
+	 mlp_extractor.value_net.2.weight torch.Size([64, 64])
+	 mlp_extractor.value_net.2.bias torch.Size([64])
+	 action_net.weight torch.Size([1, 64])
+	 action_net.bias torch.Size([1])
+	 value_net.weight torch.Size([1, 64])
+	 value_net.bias torch.Size([1])
+policy.optimizer:
+	 state {}
+
+-----------------------------
+
+	 param_groups [{'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-05, 'weight_decay': 0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}]
+
+-----------------------------
+
+

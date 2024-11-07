@@ -1,0 +1,9 @@
+- OS: Linux-6.11.2-203.fsync.fc40.x86_64-x86_64-with-glibc2.39 # 1 SMP PREEMPT_DYNAMIC TKG Thu Oct 10 10:17:29 UTC 2024
+- Python: 3.11.10
+- Stable-Baselines3: 2.4.0a7
+- PyTorch: 2.4.1+cu121
+- GPU Enabled: True
+- Numpy: 1.26.4
+- Cloudpickle: 3.1.0
+- Gymnasium: 0.29.1
+- OpenAI Gym: 0.26.2
